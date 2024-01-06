@@ -847,6 +847,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "merkle-distributor"
+version = "0.3.0"
+dependencies = [
+ "anchor-gen",
+ "anchor-lang",
+]
+
+[[package]]
 name = "num-derive"
 version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"

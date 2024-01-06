@@ -1,0 +1,17 @@
+[package]
+name = "merkle-distributor"
+version = "0.3.0"
+edition = "2021"
+license = "Apache-2.0"
+keywords = ["solana", "anchor"]
+
+[features]
+default = ["cpi"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+
+[dependencies]
+anchor-gen = { version = "0.3.0", path = "../../crates/anchor-gen" }
+anchor-lang = ">=0.20"
